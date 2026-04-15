@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dompet Digital - Login</title>
+  <link href="./output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+<body class="bg-[#abcbf1] min-h-screen flex flex-col">
+  <!-- Header -->
+  <header class="bg-[#0f4492] text-white text-center py-4 font-serif text-xl tracking-wider">
+    DOMPET DIGITAL
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow flex flex-col items-center px-6 py-8">
+    <!-- Small Logo -->
+    <div class="flex flex-col items-center mb-10 mt-4">
+      <img src="./image.png" alt="Wallet Logo" class="w-24 h-auto object-contain" />
+      <h2 class="text-xl font-bold mt-2">
+        <span class="text-[#103473]"></span> <span class="text-[#0fa4db]"></span>
+      </h2>
+    </div>
+
+    <!-- Login Form -->
+    <div class="w-full max-w-sm">
+      <h3 class="text-left font-bold text-lg mb-5 text-gray-900 ml-1">Masuk ke akun Anda</h3>
+      
+      <form class="flex flex-col gap-5">
+        <input type="text" placeholder="User name or Email" class="w-full bg-[#e3e2e8] text-gray-800 placeholder-gray-400 rounded-full px-6 py-4 font-medium focus:outline-none focus:ring-2 focus:ring-blue-400" />
+        
+        <input type="password" placeholder="Password" class="w-full bg-[#e3e2e8] text-gray-800 placeholder-gray-400 rounded-full px-6 py-4 font-medium focus:outline-none focus:ring-2 focus:ring-blue-400" />
+        
+        <div class="flex justify-between items-center text-[13px] font-bold text-black px-2 mt-1">
+          <a href="register.html" class="hover:underline">Create Account</a>
+          <a href="#" class="hover:underline">Forgot Password?</a>
+        </div>
+
+        <button type="button" class="w-full bg-[#1b81bb] text-white rounded-full py-3.5 mt-14 font-bold text-lg tracking-wide hover:bg-blue-700 transition">
+          sign-in
+        </button>
+
+        <button type="button" class="w-full bg-[#e3e2e8] text-gray-700 rounded-full py-6 mt-3 font-bold text-lg hover:bg-gray-300 transition">
+          &nbsp;
+        </button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
