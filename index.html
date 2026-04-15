@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dompet Digital - Landing Page</title>
+  <link href="./output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+    body { font-family: 'Poppins', sans-serif; }
+  </style>
+</head>
+<body class="bg-[#abcbf1] min-h-screen flex flex-col">
+  <!-- Header -->
+  <header class="bg-[#0f4492] text-white text-center py-4 font-serif text-xl tracking-wider">
+    DOMPET DIGITAL
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow flex flex-col items-center justify-center p-6 text-center">
+    <img src="image.png" alt="Wallet Illustration" class="w-48 h-auto mb-4 object-contain" />
+    
+    <h1 class="text-3xl font-bold mb-4">
+      <span class="text-[#103473]"></span> <span class="text-[#0fa4db]"></span>
+    </h1>
+    
+    <p class="text-[13px] text-gray-800 max-w-sm leading-relaxed mb-12 px-2 font-medium">
+      We provide a digital wallet application that allows users to store their money securely, ensuring their balance is protected and safe from the risk of loss.
+    </p>
+
+    <!-- Navigation to other pages based on standard UI logic -->
+    <div class="flex flex-col gap-4 w-full max-w-xs mx-auto">
+        <a href="login.html" class="w-full bg-[#1b81bb] text-white py-3 rounded-full font-semibold hover:bg-blue-700 transition shadow-md">
+          Sign In
+        </a>
+        <a href="register.html" class="w-full bg-[#e3e2e8] text-gray-800 py-3 rounded-full font-semibold hover:bg-gray-300 transition shadow-md">
+          Create Account
+        </a>
+    </div>
+  </main>
+</body>
+</html>
